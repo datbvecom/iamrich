@@ -14,6 +14,7 @@
 		4FF5A1481B737FED00EAAA68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF5A1471B737FED00EAAA68 /* Images.xcassets */; };
 		4FF5A14B1B737FED00EAAA68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FF5A1491B737FED00EAAA68 /* LaunchScreen.xib */; };
 		4FF5A1571B737FED00EAAA68 /* iRichTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5A1561B737FED00EAAA68 /* iRichTests.m */; };
+		4FF5A1641B7386A400EAAA68 /* ruby.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF5A1631B7386A400EAAA68 /* ruby.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		4FF5A1501B737FED00EAAA68 /* iRichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRichTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF5A1551B737FED00EAAA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FF5A1561B737FED00EAAA68 /* iRichTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRichTests.m; sourceTree = "<group>"; };
+		4FF5A1631B7386A400EAAA68 /* ruby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ruby.png; path = ../../../image/IAmRich/ruby.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		4FF5A1391B737FEC00EAAA68 /* iRich */ = {
 			isa = PBXGroup;
 			children = (
+				4FF5A1601B73867600EAAA68 /* images */,
 				4FF5A13E1B737FEC00EAAA68 /* AppDelegate.h */,
 				4FF5A13F1B737FEC00EAAA68 /* AppDelegate.m */,
 				4FF5A1411B737FEC00EAAA68 /* ViewController.h */,
@@ -117,6 +120,14 @@
 				4FF5A1551B737FED00EAAA68 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FF5A1601B73867600EAAA68 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4FF5A1631B7386A400EAAA68 /* ruby.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FF5A1461B737FED00EAAA68 /* Main.storyboard in Resources */,
+				4FF5A1641B7386A400EAAA68 /* ruby.png in Resources */,
 				4FF5A14B1B737FED00EAAA68 /* LaunchScreen.xib in Resources */,
 				4FF5A1481B737FED00EAAA68 /* Images.xcassets in Resources */,
 			);
